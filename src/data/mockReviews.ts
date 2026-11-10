@@ -1,0 +1,48 @@
+import { Review } from '../types';
+
+export const mockReviews: Review[] = [
+  {
+    id: 'rev-1',
+    restaurantId: 'R014',
+    userId: 'u-101',
+    userName: 'Karthik Raju (3rd Year CSE)',
+    userAvatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=150&q=80',
+    rating: 5,
+    comment: 'The Butter Chicken and Palak Paneer from Biryanis and More (Chinnakakani) arrived steaming hot at Ganga Hostel! Excellent packaging and rich gravies.',
+    date: '2026-11-04T18:24:00Z',
+    likes: 38,
+  },
+  {
+    id: 'rev-2',
+    restaurantId: 'R014',
+    userId: 'u-102',
+    userName: 'Pooja Reddy (ECE, 2nd Year)',
+    userAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80',
+    rating: 5,
+    comment: 'Prawn Fry (₹449) is absolutely succulent! Authentic spicy Andhra flavor, delivered across Chinnakakani to our hostel gate.',
+    date: '2026-11-02T19:10:00Z',
+    likes: 24,
+  },
+  {
+    id: 'rev-3',
+    restaurantId: 'R015',
+    userId: 'u-103',
+    userName: 'Abhishek Sharma (Mechanical)',
+    userAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80',
+    rating: 5,
+    comment: 'Ordered Apollo Fish and Chicken Dum Biryani from Besta Vijayawada for our hostel wing celebration. High-end dining quality at reasonable group sharing prices.',
+    date: '2026-11-06T12:45:00Z',
+    likes: 42,
+  },
+  {
+    id: 'rev-4',
+    restaurantId: 'R003',
+    userId: 'u-104',
+    userName: 'Sneha Patel (BBA, 1st Year)',
+    userAvatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80',
+    rating: 5,
+    comment: 'Bismillah Dum Biryani from Mangalagiri Trunk Road is legendary! Generous portions and rich masala flavor.',
+    date: '2026-11-07T20:15:00Z',
+    likes: 29,
+  },
+];
